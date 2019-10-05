@@ -9,6 +9,7 @@ module.exports = {
                 title: 'Học swift',
                 children: [
                     '/guides/day-one',
+                    '/guides/day-two',
                 ]
             }
         ]
