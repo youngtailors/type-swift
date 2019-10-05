@@ -167,7 +167,7 @@ let result2 = "failed"
 let result3 = "fail"
 ```
 
-Tất cả có 3 chuỗi khác nhau vì thế chúng có nghĩa là các thứ khác nhau.
+Tất cả có 3 chuỗi khác nhau vì thế chúng dễ gây nhầm lẫn.
 Với enums chúng ta định nghĩa **Result** có thể chứa cả **success** và **failure** như sau:
 ```swift
 enum Result {
@@ -241,7 +241,7 @@ enum Planet: Int {
 }
 ```
 
-Bây giờ Swift sẽ gán 1 cho **mercury**(thủy ngân) và đếm ngược lên từ đó, nghĩa là trái đất giờ là hành tinh thứ ba.
+Bây giờ Swift sẽ gán 1 cho **mercury** và đếm ngược lên từ đó, nghĩa là trái đất giờ là hành tinh thứ ba.
 
 ## 11. Tổng kết
 Sau ngày thứ 2 chúng ta thu được tổng kết như sau:
